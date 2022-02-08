@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/man"
+    tools:context=".MembershipActivity">
+
+
+    <TextView
+        android:id="@+id/member"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Member"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:id="@+id/layout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+
+        app:neomorph_background_color="@color/background"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_elevation="0.8dp"
+        app:neomorph_highlight_color="@color/highlight"
+        app:neomorph_shadow_color="@color/shadow_color"
+        app:neomorph_shadow_type="outer"
+        app:neomorph_view_type="rectangular">
+
+        <EditText
+            android:id="@+id/txtCardNo"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/shap_rectangle"
+            android:hint="Card_No"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+
+            />
+
+
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:id="@+id/layout_mobile"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_email"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        app:neomorph_background_color="@color/background"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_elevation="0.8dp"
+        app:neomorph_highlight_color="@color/highlight"
+        app:neomorph_shadow_color="@color/shadow_color"
+        app:neomorph_shadow_type="outer"
+        app:neomorph_view_type="rectangular">
+
+        <EditText
+            android:id="@+id/txtaddress"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/shap_rectangle"
+
+            android:hint="Address"
+            android:inputType=""
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp" />
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:id="@+id/layout_email"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_name"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        app:neomorph_background_color="@color/background"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_elevation="0.8dp"
+        app:neomorph_highlight_color="@color/highlight"
+        app:neomorph_shadow_color="@color/shadow_color"
+        app:neomorph_shadow_type="outer"
+        app:neomorph_view_type="rectangular">
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/shap_rectangle"
+            android:hint="Name"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+
+            />
+
+
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:id="@+id/layout_nic"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_mobile"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        app:neomorph_background_color="@color/background"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_elevation="0.8dp"
+        app:neomorph_highlight_color="@color/highlight"
+        app:neomorph_shadow_color="@color/shadow_color"
+        app:neomorph_shadow_type="outer"
+        app:neomorph_view_type="rectangular">
+
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/shap_rectangle"
+            android:hint="Phone"
+            android:inputType=""
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+
+            />
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:id="@+id/layout_pass"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_nic"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        app:neomorph_background_color="@color/background"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_elevation="0.8dp"
+        app:neomorph_highlight_color="@color/highlight"
+        app:neomorph_shadow_color="@color/shadow_color"
+        app:neomorph_shadow_type="outer"
+        app:neomorph_view_type="rectangular">
+
+        <EditText
+            android:id="@+id/txtUnpaid"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/shap_rectangle"
+            android:hint="Unpaod_dues"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+
+            />
+
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:id="@+id/layout_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:neomorph_background_color="@color/background"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_elevation="0.8dp"
+        app:neomorph_highlight_color="@color/highlight"
+        app:neomorph_shadow_color="@color/shadow_color"
+        app:neomorph_shadow_type="outer"
+        app:neomorph_view_type="rectangular">
+
+
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnView"
+        android:layout_width="158dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/bg_button"
+        android:text="View"
+        android:textColor="@color/highlight" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAdd"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/bg_button"
+        android:text="Add"
+        android:textColor="@color/highlight" />
+
+
+</RelativeLayout>

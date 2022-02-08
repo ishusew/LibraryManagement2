@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_cycle"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_plane"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+    </group>
+
+
+        <item android:title="profile">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/neav_login"
+                    android:icon="@drawable/home_icon"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/home_icon"
+                    android:title="Profile" />
+                </group>
+
+            </menu>
+
+        </item>
+
+
+
+
+    <item android:title="Communicate">
+<menu>
+    <item
+        android:id="@+id/nav_m"
+        android:title="Home"
+        android:icon="@drawable/home_icon"/>
+    <item
+        android:id="@+id/nav_l"
+        android:title="Home"
+        android:icon="@drawable/home_icon"/>
+
+</menu>
+
+    </item>
+
+</menu>
